@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pyxform',
+    name='pyxform-cadasta',
     version='0.9.22',
     author='modilabs',
     author_email='info@modilabs.org',
@@ -17,7 +17,7 @@ setup(
             'test_expected_output/*.*',
         ]
     },
-    url='http://pypi.python.org/pypi/pyxform/',
+    url='http://pypi.python.org/pypi/pyxform-cadasta/',
     description='A Python package to create XForms for ODK Collect.',
     long_description=open('README.rst', 'rt').read(),
     install_requires=[
